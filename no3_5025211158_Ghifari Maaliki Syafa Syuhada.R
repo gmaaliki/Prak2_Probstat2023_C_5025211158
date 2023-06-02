@@ -39,7 +39,7 @@ cat("P-value = ", p_value, "\n")
   
 # c. Lakukan uji statistik (df = 2)
 df <- 2
-#plotDist(dist = 't', df = df)
+plotDist(dist = 't', df = df)
   
 # d. Nilai kritikal
 alpha <- 0.05
