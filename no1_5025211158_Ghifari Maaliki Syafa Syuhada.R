@@ -27,7 +27,7 @@ cat("P-value = ", p_value, "\n")
 
 # c. Pengaruh terhadap saturasi oksigen
 alpha <- 0.05
-if(p_value > alpha & p_value < (1-alpha)) {
+if(p_value > alpha/2 & p_value < (1-alpha/2)) {
   # Menerima status quo
   cat("Kesimpulan:",
   "Tidak ada pengaruh yang signifikan secara statistika 

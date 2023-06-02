@@ -48,7 +48,7 @@ cat("Nilai kritikal kiri: ", -nilai_kritikal, "\n")
 cat("Nilai kritikal kanan: ", nilai_kritikal, "\n")
   
 # e. Keputusan
-if(p_value > alpha & p_value < (1-alpha)) {
+if(p_value > alpha/2 & p_value < (1-alpha/2)) {
   # Menerima status quo
   cat("Keputusan: H0 tidak ditolak\n")
 } else {
@@ -57,7 +57,7 @@ if(p_value > alpha & p_value < (1-alpha)) {
 }
 
 # f. Kesimpulan
-if(p_value > alpha & p_value < (1-alpha)) {
+if(p_value > alpha/2 & p_value < (1-alpha/2)) {
   # Menerima status quo
   cat("Kesimpulan:",
       "Rata-rata jumlah saham di Bandung dan Bali sama\n")
