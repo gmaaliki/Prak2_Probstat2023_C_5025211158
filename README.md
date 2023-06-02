@@ -16,7 +16,6 @@ b. Dengam menggunakan library 'BSDA', kita dapat menggunakan fungsi `t.test()` u
 
 c. Setelah kita mengetahui P-value nya, kita dapat menentukan apakah H1 akan diterima atau tidak. Karena nilai `alpha = 0.05` dan hipotesis merupakan pernyataan iya dan tidak, maka terdapat 2 nilai kiritis yaitu pada `alpha/2` dan `1-alpha/2`. Apabila P-value berada di tengah-tengah kedua nilai kritis tersebut, maka H1 ditolak. Sebaliknya bila meleweati, maka H1 akan diterima.  
 ![1c](./images/1.c.png)
-> nanti ganti alphanya
 
 ### Soal 2
 Diketahui :  
@@ -63,7 +62,6 @@ e. Dari semua informasi yang kita dapat, kita bisa mengambil keputusan apakah ki
 
 f. Begitu juga dengan kesimpulan  
 ![3f](./images/3.f.png)
->> e sm f alphanya masih salah
 
 ### Soal 4
 Diketahui :  
