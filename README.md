@@ -19,10 +19,10 @@ c. Setelah kita mengetahui P-value nya, kita dapat menentukan apakah H1 akan dit
 
 ### Soal 2
 Diketahui :  
-mean populasi = 25000
-mean sampel = 23500
-n = 100
-standar deviasi = 3000
+mean populasi = 25000  
+mean sampel = 23500  
+n = 100  
+standar deviasi = 3000  
 
 a. Untuk mencapai sebuah kesimpulan, pertama-tama kita mesti melakukan perhitungan. Dengan menerapkan uji Z melalui fungsi `zsum.test()` kita dapat memperoleh P-valuenya  
 ![2a](./images/2.a.png)
