@@ -14,7 +14,7 @@ a. Standar deviasi selisih X dan Y dapat kita cari dengan peratma mencari selisi
 b. Dengam menggunakan library 'BSDA', kita dapat menggunakan fungsi `t.test()` untuk menghitung hasil uji T. Diantara output yang dihasilkan `t.test()` adalah T-value dan P-value  
 ![1b](./images/1.b.png)
 
-c. Setelah kita mengetahui P-value nya, kita dapat menentukan apakah H1 akan diterima atau tidak. Karena nilai `alpha = 0.05` dan hipotesis merupakan pernyataan iya dan tidak, maka terdapat 2 nilai kiritis yaitu pada `alpha/2` dan `1-alpha/2`. Apabila P-value berada di tengah-tengah kedua nilai kritis tersebut, maka H1 ditolak. Sebaliknya bila meleweati, maka H1 akan diterima.  
+c. Setelah kita mengetahui P-value nya, kita dapat menentukan apakah H1 akan diterima atau tidak. Karena nilai `alpha = 0.05` dan hipotesis merupakan pernyataan iya dan tidak, maka terdapat 2 nilai kiritis yaitu pada `alpha/2` dan `1-alpha/2`. Apabila P-value berada di tengah-tengah kedua nilai kritis tersebut, maka H1 ditolak. Sebaliknya bila melewati, maka H1 akan diterima.  
 ![1c](./images/1.c.png)
 
 ### Soal 2
@@ -31,16 +31,16 @@ c. Setelah itu, kita dapat melakukan uji hipotesis. Kita tahu hanya ada 1 nilai 
 ![2c](./images/2.c.png)
 
 ### Soal 3
-Diketahui :
-n Bandung = 20
-n Bali = 27
+Diketahui :  
+n Bandung = 20  
+n Bali = 27  
   
-mean Bandung = 3.64
-mean Bali = 2.79
+mean Bandung = 3.64  
+mean Bali = 2.79  
   
-standar deviasi Bandung = 1.67
-standar deviasi Bali = 1.5
-
+standar deviasi Bandung = 1.67  
+standar deviasi Bali = 1.5  
+  
 a. Dengan melihat semua yang diketahui, saya menganggap bahwa persoalan ini adalah tentang estimasi parameter dimana kita membandingkan kedua rata-rata dari populasi. Oleh karena itu, maka:
 - H0 : Rata-rata jumlah saham di Bandung dan Bali sama
 - H1 : Rata-rata jumlah saham di Bandung dan Bali tidak sama  
