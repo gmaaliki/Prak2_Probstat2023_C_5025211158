@@ -42,4 +42,27 @@ mean Bali = 2.79
 standar deviasi Bandung = 1.67
 standar deviasi Bali = 1.5
 
-a. Karena persoalan yang 
+a. Dengan melihat semua yang diketahui, saya menganggap bahwa persoalan ini adalah tentang estimasi parameter dimana kita membandingkan kedua rata-rata dari populasi. Oleh karena itu, maka:
+- H0 : Rata-rata jumlah saham di Bandung dan Bali sama
+- H1 : Rata-rata jumlah saham di Bandung dan Bali tidak sama  
+![3a](./images/3.a.png)
+
+b. Untuk menghitung sampel statistik kita menerapkan uji t melalui fungsi `tsum.test()`.  
+![3b](./images/3.b.png)
+
+c. Uji statistik menggunakan distribusi t-student dengan `df = 2`  
+![3c1](./images/3.c.1.png)  
+Grafik :  
+![3c2](./images/3.c.2.png)
+
+d. Nilai kritikal kita cari dengan fungsi `qt()` untuk distribusi t. Karena hipotesis berupa pernyataan sama dan tidak sama, maka distribusi two-tailed. Jadi nilai kritikal ada 2 yang akan kita cari dengan memasukkan nilai alpha `1 - alpha/2` yang nantinya akan kita ubah sign nya untuk mendapatkan 2 nilai.  
+![3d](./images/3.d.png)
+
+e. Dari semua informasi yang kita dapat, kita bisa mengambil keputusan apakah kita akan menerima H1 atau tidak  
+![3e](./images/3.e.png)
+
+f. Begitu juga dengan kesimpulan  
+![3f](./images/3.f.png)
+>> e sm f alphanya masih salah
+
+### Soal 4
