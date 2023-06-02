@@ -66,3 +66,16 @@ f. Begitu juga dengan kesimpulan
 >> e sm f alphanya masih salah
 
 ### Soal 4
+Diketahui :  
+- Data berupa file csv
+
+a. Pertama-tama kita baca file csv yang diberikan. Lalu untuk membuat plotting, kita dapat menggunakan fungsi `ggplot()` yang berada di library `ggplot2`
+![4a1](./images/4.a.1.png)  
+Grafik :   
+![4a2](./images/4.a.2.png)
+
+b. Uji ANOVA kita lakukan dengan fungsi `aov`. Sesuai dengan data, variabel `Light` adalah variabel yang dependen dengan `Temp` dan `Glass` yang merupakan variabel independen. Maka penulisannya pada fungsi `aov` adalah `Light ~ Temp * Glass`. Kita dapat melihat outputnya dengan fungsi `summary`  
+![4b](./images/4.b.png)
+
+c. Untuk membuat tabelnya kita dapat menggunakan fungsi `summarize` dan untuk setiap perlakuannya, kita akan menghitung rata-rata dan standar deviasi dari `Light`  
+![4c](./images/4.c.png)
